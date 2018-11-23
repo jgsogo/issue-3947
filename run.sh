@@ -1,6 +1,10 @@
 conan remove libA -f
 conan remove libB -f
 
+printf "************\n"
+conan --version
+printf "************\n"
+
 printf "\n\n********* libA/1.0 **********\n\n"
 
 cd libA
